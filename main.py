@@ -1,18 +1,21 @@
 # This is a sample Python script.
 import argparse
+import json
 import os
-from dataclasses import dataclass
+from dataclasses import dataclass, asdict
 from pathlib import Path
 
-from columns import Columns, Product
-from program import Program
+from table import Table
 
 print(f'program {__name__}')
 
 @dataclass(frozen=True)
 class ProgramArgs:
-    input_file: Path
-    sheet: str
+    root: Path
+    catalog : str
+    catalog_sheet : str
+    excel : str
+    excel_sheet: str
     verbose: bool
 
 def clear():
@@ -25,10 +28,12 @@ def build_parser() -> argparse.ArgumentParser:
     )
 
     # Positional or required args
-    p.add_argument("input_file", type=Path, help="Path to the Excel file (.xlsx)")
+    p.add_argument("--root", default="C:\\Users\\juliansmith\\OneDrive - Flexera, Inc\\Assignments\\PLC Migration\\assessment", type=Path, help="Path root directory")
 
-    # Optional args
-    p.add_argument("-s", "--sheet", default="Sheet1", help="Excel sheet name (default: Sheet1)")
+    p.add_argument("--catalog", default="INST-SearchCatalogItem.xlsx", help="Catalog items (.xlsx)")
+    p.add_argument("--catalog-sheet", default="Sheet1", help="Catalog sheet name (default: Sheet1)")
+    p.add_argument("--excel", default="PLC_SKU_Mapping-Master.xlsx", help="Excel file (.xlsx)")
+    p.add_argument("--excel-sheet", default="MasterData", help="Excel sheet name (default: Sheet1)")
     p.add_argument("-v", "--verbose", default=False, action="store_true", help="Enable verbose logging")
     return p
 
@@ -38,11 +43,48 @@ def parse_args(argv=None) -> ProgramArgs:
 
     # Convert Namespace -> dataclass
     return ProgramArgs(
-        input_file=ns.input_file,
-        sheet=ns.sheet,
+        root=ns.root,
+        catalog=ns.catalog,
+        catalog_sheet=ns.catalog_sheet,
+        excel=ns.excel,
+        excel_sheet=ns.excel_sheet,
         verbose=ns.verbose
     )
 
+@dataclass()
+class CatalogItem:
+    SYSTEM_ID: int
+    ID: str
+    NAME: str
+    TYPE: str
+    CREATED: str
+    MANUFACTURER: str
+    PRODUCT_LINE: str
+
+@dataclass()
+class MasterData:
+    PRODUCT_CODE: str
+    PRODUCT_NAME: str
+    EXTERNAL_MODULE_SKU: str
+
+@dataclass
+class Feature:
+    name: str
+    version: str
+
+@dataclass
+class Product:
+    name: str
+    version: str
+    product_line: str
+    features: list[Feature]
+
+@dataclass
+class Suite:
+    part_number: str
+    name: str
+    version: str
+    products: list[Product]
 
 def main(argv=None) -> int:
     clear()
@@ -52,47 +94,60 @@ def main(argv=None) -> int:
     if args.verbose:
         print(f"Args: {args}")
 
-    # Your app logic here:
-    # - read Excel
-    # - process
-    # - write output
+    if not args.root.is_dir():
+        raise FileNotFoundError(f'cannot find {args.root}')
 
-
-    program = Program()
-
-    if not args.input_file.is_file():
-        raise FileNotFoundError(f'cannot find {args.input_file}')
-
-    print(f"Reading {args.input_file} sheet={args.sheet}")
-    program.load(args.input_file)
-
-    if not program.sheets.__contains__(args.sheet):
-        raise Exception(f"Sheet {args.sheet} not found in {args.input_file}")
-
-    for key in program.sheets.get(args.sheet).to_dict(orient='records'):
-
-        prod = Product(
-            product_code=key[Columns.SKU.value],
-            product_line=key[Columns.PRODUCT_LINE.value],
-            suite_name=key[Columns.SUITE_NAME.value],
-            suite_version=key[Columns.SUITE_VERSION.value],
-            catalog_name=key[Columns.CATALOG_NAME.value],
-            catalog_version=key[Columns.CATALOG_VERSION.value]
+    path = args.root / args.catalog
+    catalog_items = []
+    catalog = Table().load(path).extract_sheet(args.catalog_sheet)
+    for o in catalog:
+        catalog_items.append(CatalogItem(
+            SYSTEM_ID=o["SYSTEM_ID"],
+            ID=o["ID"],
+            NAME=o["NAME"],
+            TYPE=o["TYPE"],
+            CREATED=o["CREATED"],
+            MANUFACTURER=o["MANUFACTURER"],
+            PRODUCT_LINE=o["PRODUCT_LINE"])
         )
 
-        print(prod)
+    path = args.root / args.excel
+    master_data_items = []
+    master_data = Table().load(path)
+    for o in master_data.extract_sheet(args.excel_sheet):
+        master_data_items.append(MasterData(
+            PRODUCT_CODE=o["Product__r.ProductCode"],
+            PRODUCT_NAME=o["Product__r.Name"],
+            EXTERNAL_MODULE_SKU=o["External_Module__r.Part_Number__c"])
+        )
+
+    required_part_numbers = set()
+    for o in master_data.extract_sheet("RequiredProductCodes"):
+        required_part_numbers.add(o["Product__r.ProductCode"])
+
+    data = {}
+    for o in master_data_items:
+        key = o.PRODUCT_CODE
+
+        if not data.__contains__(o.PRODUCT_CODE):
+            data[key] = Suite(part_number=key, name=o.PRODUCT_NAME, version="Subscription", products=[])
+
+        suite = data[key]
+
+        for cat in filter(lambda x : x.ID == o.EXTERNAL_MODULE_SKU, catalog_items):
+            suite.products.append(Product(name=cat.NAME, version=cat.ID, product_line=cat.PRODUCT_LINE, features=[]))
+
+    with open(args.root / "pcs-products.json", "w", encoding="utf-8") as file:
+        jstr = json.dumps({k: asdict(v) for k, v in data.items() if required_part_numbers.__contains__(k)}, indent=2)
+
+        file.write(jstr)
+        print(jstr)
+
+
+
 
     return 0
 
 if __name__ == '__main__':
     SystemExit(main())
-    # try:
-    #     main()
-    #     sys.exit(0)
-    # except Exception as e:
-    #     print(f'error: {e.__class__.__name__}: {str(e)}')
-    #     sys.exit(-1)
-    # finally:
-    #     pass
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
