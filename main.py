@@ -27,8 +27,10 @@ def build_parser() -> argparse.ArgumentParser:
         description="Read an Excel sheet and do something useful."
     )
 
+    root = "c:\\working\\python\\PLC\\data"
+
     # Positional or required args
-    p.add_argument("--root", default="C:\\Users\\juliansmith\\OneDrive - Flexera, Inc\\Assignments\\PLC Migration\\assessment", type=Path, help="Path root directory")
+    p.add_argument("--root", default=root, type=Path, help="Path root directory")
 
     p.add_argument("--catalog", default="INST-SearchCatalogItem.xlsx", help="Catalog items (.xlsx)")
     p.add_argument("--catalog-sheet", default="Sheet1", help="Catalog sheet name (default: Sheet1)")
@@ -86,6 +88,14 @@ class Suite:
     version: str
     products: list[Product]
 
+    def __hash__(self) -> int:
+        return hash(self.part_number)
+
+    def __eq__(self, other) -> bool:
+        if not isinstance(other, Suite):
+            return NotImplemented
+        return self.part_number == other.part_number
+
 def main(argv=None) -> int:
     clear()
 
@@ -125,7 +135,7 @@ def main(argv=None) -> int:
     for o in master_data.extract_sheet("RequiredProductCodes"):
         required_part_numbers.add(o["Product__r.ProductCode"])
 
-    data = {}
+    data = dict()
     for o in master_data_items:
         key = o.PRODUCT_CODE
 
@@ -142,9 +152,6 @@ def main(argv=None) -> int:
 
         file.write(jstr)
         print(jstr)
-
-
-
 
     return 0
 

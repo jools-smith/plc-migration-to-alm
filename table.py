@@ -6,7 +6,6 @@ class Table:
         self.sheets = None
         self.path = None
 
-
     def add_column(self, column) -> Table:
         self.columns.append(column)
         return self
