@@ -1,2413 +1,1172 @@
 {
-  "FNO-ALMG-XXXX": {
-    "part_number": "FNO-ALMG-XXXX",
-    "name": "FlexNet Operations Advanced Lifecycle Management Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Advanced Lifecycle Management Subscription",
-        "version": "FNO-ALMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-ALMPL-XXXX": {
-    "part_number": "FNO-ALMPL-XXXX",
-    "name": "FlexNet Operations Advanced Lifecycle Management Perpetual License",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Advanced Lifecycle Management Perpetual",
-        "version": "FNO-ALMPL-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-ALMS-XXXX": {
-    "part_number": "FNO-ALMS-XXXX",
-    "name": "FlexNet Operations Advanced Lifecycle Management Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Advanced Lifecycle Management Subscription",
-        "version": "FNO-ALMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-AOG-XXXX": {
-    "part_number": "FNO-AOG-XXXX",
-    "name": "FlexNet Operations Advanced Organization Management Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Advanced Organization Management Subscription - APO",
-        "version": "FNO-AOMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-AOPL-XXXX": {
-    "part_number": "FNO-AOPL-XXXX",
-    "name": "FlexNet Operations Advanced Organization Management Perpetual License",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Advanced Organization Management Perpetual - APO",
-        "version": "FNO-AOMPL-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-AOS-XXXX": {
-    "part_number": "FNO-AOS-XXXX",
-    "name": "FlexNet Operations Advanced Organization Management Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Advanced Organization Management Subscription - APO",
-        "version": "FNO-AOMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-C-G-XXX": {
-    "part_number": "FNO-C-G-XXX",
-    "name": "FlexNet Operations Cloud Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud subscription",
-        "version": "FNOC-S",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-CLSG-XXXX": {
-    "part_number": "FNO-CLSG-XXXX",
-    "name": "FlexNet Operations Cloud Licensing Service Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Licensing Service Subscription",
-        "version": "FNO-CLSS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-CLSPL-XXXX": {
-    "part_number": "FNO-CLSPL-XXXX",
-    "name": "FlexNet Operations Cloud Licensing Service Perpetual License",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Licensing Service Perpetual",
-        "version": "FNO-CLSPL-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-CLSS-XXXX": {
-    "part_number": "FNO-CLSS-XXXX",
-    "name": "FlexNet Operations Cloud Licensing Service Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Licensing Service Subscription",
-        "version": "FNO-CLSS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-CMT-CL-GS-XXX": {
-    "part_number": "FNO-CMT-CL-GS-XXX",
-    "name": "Cloud Monetization Cloud Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud \u2013 Cloud Monetization API",
-        "version": "FNOC-CMAPIS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud \u2013 Cloud Monetization",
-        "version": "FNOC-CMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Usage Management subscription",
-        "version": "FNOC-UMSS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud - Cloud Licensing Service subscription",
-        "version": "FNOC-CLS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-CMT-CL-GS-XXX-B": {
-    "part_number": "FNO-CMT-CL-GS-XXX-B",
-    "name": "Cloud Monetization Cloud Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Usage Management subscription",
-        "version": "FNOC-UMSS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud \u2013 Cloud Monetization API",
-        "version": "FNOC-CMAPIS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud \u2013 Cloud Monetization",
-        "version": "FNOC-CMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud - Cloud Licensing Service subscription",
-        "version": "FNOC-CLS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-CMT-CL-S-XXX": {
-    "part_number": "FNO-CMT-CL-S-XXX",
-    "name": "Cloud Monetization Cloud Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud - Cloud Licensing Service subscription",
-        "version": "FNOC-CLS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Usage Management subscription",
-        "version": "FNOC-UMSS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud \u2013 Cloud Monetization",
-        "version": "FNOC-CMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud \u2013 Cloud Monetization API",
-        "version": "FNOC-CMAPIS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-CMT-CL-S-XXX-B": {
-    "part_number": "FNO-CMT-CL-S-XXX-B",
-    "name": "Cloud Monetization Cloud Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud \u2013 Cloud Monetization API",
-        "version": "FNOC-CMAPIS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Usage Management subscription",
-        "version": "FNOC-UMSS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud \u2013 Cloud Monetization",
-        "version": "FNOC-CMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud - Cloud Licensing Service subscription",
-        "version": "FNOC-CLS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-CMT-GS-XXX": {
-    "part_number": "FNO-CMT-GS-XXX",
-    "name": "Cloud Monetization Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Licensing Service Subscription",
-        "version": "FNO-CLSS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Usage Management Subscription",
-        "version": "FNO-UMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-CMT-S-XXX": {
-    "part_number": "FNO-CMT-S-XXX",
-    "name": "Cloud Monetization Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Licensing Service Subscription",
-        "version": "FNO-CLSS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Usage Management Subscription",
-        "version": "FNO-UMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-CMT-S-XXX-B": {
-    "part_number": "FNO-CMT-S-XXX-B",
-    "name": "Cloud Monetization Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Usage Management Subscription",
-        "version": "FNO-UMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Licensing Service Subscription",
-        "version": "FNO-CLSS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-CMT-XXX": {
-    "part_number": "FNO-CMT-XXX",
-    "name": "Cloud Monetization Perpetual License",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Usage Management Perpetual",
-        "version": "FNO-UMPL-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Licensing Service Perpetual",
-        "version": "FNO-CLSPL-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-DYNMON-C-GS-XXX": {
-    "part_number": "FNO-DYNMON-C-GS-XXX",
-    "name": "Dynamic Monetization Cloud Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud- Dynamic Monetization",
-        "version": "FNOC-DYNMON",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-DYNMON-C-GS-XXX-B": {
-    "part_number": "FNO-DYNMON-C-GS-XXX-B",
-    "name": "Dynamic Monetization Cloud Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud- Dynamic Monetization",
-        "version": "FNOC-DYNMON",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-DYNMON-C-SS-XXX": {
-    "part_number": "FNO-DYNMON-C-SS-XXX",
-    "name": "Dynamic Monetization Cloud Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud- Dynamic Monetization",
-        "version": "FNOC-DYNMON",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-DYNMON-C-SS-XXX-B": {
-    "part_number": "FNO-DYNMON-C-SS-XXX-B",
-    "name": "Dynamic Monetization Cloud Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud- Dynamic Monetization",
-        "version": "FNOC-DYNMON",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-EM-CL-GS-XXX": {
-    "part_number": "FNO-EM-CL-GS-XXX",
-    "name": "Entitlement Management Cloud Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud subscription",
-        "version": "FNOC-S",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Advanced Lifecycle Management subscription",
-        "version": "FNOC-ALMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Advanced Organization Management subscription",
-        "version": "FNOC-AOMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Renewal Management Subscription",
-        "version": "FNOC-RMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-EM-CL-GS-XXX-B": {
-    "part_number": "FNO-EM-CL-GS-XXX-B",
-    "name": "Entitlement Management Cloud Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Advanced Organization Management subscription",
-        "version": "FNOC-AOMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Renewal Management Subscription",
-        "version": "FNOC-RMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud subscription",
-        "version": "FNOC-S",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Advanced Lifecycle Management subscription",
-        "version": "FNOC-ALMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-EM-CL-S-XXX": {
-    "part_number": "FNO-EM-CL-S-XXX",
-    "name": "Entitlement Management Cloud Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud subscription",
-        "version": "FNOC-S",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Advanced Lifecycle Management subscription",
-        "version": "FNOC-ALMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Advanced Organization Management subscription",
-        "version": "FNOC-AOMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Renewal Management Subscription",
-        "version": "FNOC-RMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-EM-GS-XXX": {
-    "part_number": "FNO-EM-GS-XXX",
-    "name": "Entitlement Management Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Subscription - APO",
-        "version": "FNO-S-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Advanced Organization Management Subscription - APO",
-        "version": "FNO-AOMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Advanced Lifecycle Management Subscription",
-        "version": "FNO-ALMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Renewal Management Subscription",
-        "version": "FNO-RMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-EM-GS-XXX-B": {
-    "part_number": "FNO-EM-GS-XXX-B",
-    "name": "Entitlement Management Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Advanced Lifecycle Management Subscription",
-        "version": "FNO-ALMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Advanced Organization Management Subscription - APO",
-        "version": "FNO-AOMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Renewal Management Subscription",
-        "version": "FNO-RMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Subscription - APO",
-        "version": "FNO-S-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-EM-S-XXX": {
-    "part_number": "FNO-EM-S-XXX",
-    "name": "Entitlement Management Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Advanced Lifecycle Management Subscription",
-        "version": "FNO-ALMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Advanced Organization Management Subscription - APO",
-        "version": "FNO-AOMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Renewal Management Subscription",
-        "version": "FNO-RMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Subscription - APO",
-        "version": "FNO-S-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-EM-S-XXX-B": {
-    "part_number": "FNO-EM-S-XXX-B",
-    "name": "Entitlement Management Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Advanced Lifecycle Management Subscription",
-        "version": "FNO-ALMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Subscription - APO",
-        "version": "FNO-S-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Advanced Organization Management Subscription - APO",
-        "version": "FNO-AOMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Renewal Management Subscription",
-        "version": "FNO-RMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-EM-SFC-CL-S-XXX": {
-    "part_number": "FNO-EM-SFC-CL-S-XXX",
-    "name": "FlexNet Operations Cloud Salesforce Connector Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud - Salesforce Connector Subscription",
-        "version": "FNOC-SFDC",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-EM-SFC-CL-S-XXX-B": {
-    "part_number": "FNO-EM-SFC-CL-S-XXX-B",
-    "name": "FlexNet Operations Cloud Salesforce Connector Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud - Salesforce Connector Subscription",
-        "version": "FNOC-SFDC",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-EM-XXX": {
-    "part_number": "FNO-EM-XXX",
-    "name": "Entitlement Management Perpetual License",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Renewal Management Perpetual",
-        "version": "FNO-RMPL-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Perpetual - APO",
-        "version": "FNO-PL-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Advanced Organization Management Perpetual - APO",
-        "version": "FNO-AOMPL-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Advanced Lifecycle Management Perpetual",
-        "version": "FNO-ALMPL-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-EMAWS-CL-EVAL-XXX": {
-    "part_number": "FNO-EMAWS-CL-EVAL-XXX",
-    "name": "Entitlement Management AWS (US) Cloud Evaluation",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud \u2013 Cloud Monetization",
-        "version": "FNOC-CMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud subscription",
-        "version": "FNOC-S",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Renewal Management Subscription",
-        "version": "FNOC-RMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "ESD Downloads",
-        "version": "FNOC-Downloads",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Evaluation",
-        "version": "FNOC-EVAL",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Advanced Organization Management subscription",
-        "version": "FNOC-AOMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Advanced Lifecycle Management subscription",
-        "version": "FNOC-ALMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Electronic Delivery subscription",
-        "version": "FNOC-EDS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "Active Accounts",
-        "version": "FNOC-Accounts",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "ESD Storage",
-        "version": "FNOC-Storage",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Updates and Insights Subscription",
-        "version": "FNO-UAI-APO",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-EMAWS-CL-EVAL-XXX-B": {
-    "part_number": "FNO-EMAWS-CL-EVAL-XXX-B",
-    "name": "Entitlement Management AWS (US) Cloud Evaluation",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Evaluation",
-        "version": "FNOC-EVAL",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "Active Accounts",
-        "version": "FNOC-Accounts",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Advanced Lifecycle Management subscription",
-        "version": "FNOC-ALMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Advanced Organization Management subscription",
-        "version": "FNOC-AOMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Renewal Management Subscription",
-        "version": "FNOC-RMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud subscription",
-        "version": "FNOC-S",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud \u2013 Cloud Monetization",
-        "version": "FNOC-CMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Updates and Insights Subscription",
-        "version": "FNO-UAI-APO",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "ESD Downloads",
-        "version": "FNOC-Downloads",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Electronic Delivery subscription",
-        "version": "FNOC-EDS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "ESD Storage",
-        "version": "FNOC-Storage",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-EMAWS-CL-GS-XXX": {
-    "part_number": "FNO-EMAWS-CL-GS-XXX",
-    "name": "Entitlement Management AWS (US) Cloud Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Advanced Organization Management subscription",
-        "version": "FNOC-AOMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud subscription",
-        "version": "FNOC-S",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Renewal Management Subscription",
-        "version": "FNOC-RMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Advanced Lifecycle Management subscription",
-        "version": "FNOC-ALMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
+  "FlexNet Operations Cloud- Dynamic Monetization | FNOC-DYNMON": {
+    "name": "FlexNet Operations Cloud- Dynamic Monetization",
+    "version": "FNOC-DYNMON",
+    "product_line": "FlexNet Operations Cloud",
+    "features": [
+      {
+        "name": "flexnet_ops.ElasticAccess",
+        "description": "flexnet_ops.ElasticAccess12",
+        "version": 12.0,
+        "quantity": 1
+      }
+    ]
+  },
+  "FlexNet Connect Instrumentation Management Perpetual - APO | FNC-IM-PERP-APO": {
+    "name": "FlexNet Connect Instrumentation Management Perpetual - APO",
+    "version": "FNC-IM-PERP-APO",
+    "product_line": "FlexNet Connect",
+    "features": []
+  },
+  "FlexNet Connect On-Premises Perpetual - APO | FNC-OP-PERP-APO": {
+    "name": "FlexNet Connect On-Premises Perpetual - APO",
+    "version": "FNC-OP-PERP-APO",
+    "product_line": "FlexNet Connect",
+    "features": []
+  },
+  "FlexNet Embedded Windows Embedded Compact ARM-32 | FNE Windows Embedded Compact ARM-32": {
+    "name": "FlexNet Embedded Windows Embedded Compact ARM-32",
+    "version": "FNE Windows Embedded Compact ARM-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded Debian reference Linux ARM-32 | FNE Debian reference Linux ARM-32": {
+    "name": "FlexNet Embedded Debian reference Linux ARM-32",
+    "version": "FNE Debian reference Linux ARM-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded Debian reference Linux MIPS-32 | FNE Debian reference Linux MIPS-32": {
+    "name": "FlexNet Embedded Debian reference Linux MIPS-32",
+    "version": "FNE Debian reference Linux MIPS-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded Debian reference Linux PPC-32 | FNE Debian reference Linux PPC-32": {
+    "name": "FlexNet Embedded Debian reference Linux PPC-32",
+    "version": "FNE Debian reference Linux PPC-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded Windows x86-32 | FlexNet Embedded Windows x86-32": {
+    "name": "FlexNet Embedded Windows x86-32",
+    "version": "FlexNet Embedded Windows x86-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded CentOS reference Linux x86-32 | FNE CentOS reference Linux x86-32": {
+    "name": "FlexNet Embedded CentOS reference Linux x86-32",
+    "version": "FNE CentOS reference Linux x86-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded VxWorks 6.x MIPS-32 | FlexNet Embedded VxWorks 6.x MIPS-32": {
+    "name": "FlexNet Embedded VxWorks 6.x MIPS-32",
+    "version": "FlexNet Embedded VxWorks 6.x MIPS-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded Windows Embedded Compact x86-32 | FNE Windows Embedded Compact x86-32": {
+    "name": "FlexNet Embedded Windows Embedded Compact x86-32",
+    "version": "FNE Windows Embedded Compact x86-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded Windows x86-64 | FlexNet Embedded Windows x86-64": {
+    "name": "FlexNet Embedded Windows x86-64",
+    "version": "FlexNet Embedded Windows x86-64",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded CentOS reference Linux x86-64 | FNE CentOS reference Linux x86-64": {
+    "name": "FlexNet Embedded CentOS reference Linux x86-64",
+    "version": "FNE CentOS reference Linux x86-64",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded AIX PPC-64 | FlexNet Embedded AIX PPC-64": {
+    "name": "FlexNet Embedded AIX PPC-64",
+    "version": "FlexNet Embedded AIX PPC-64",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded Windows Embedded Standard x86-32 | FNE Windows Embedded Standard x86-32": {
+    "name": "FlexNet Embedded Windows Embedded Standard x86-32",
+    "version": "FNE Windows Embedded Standard x86-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded Solaris x86-32 | FlexNet Embedded Solaris x86-32": {
+    "name": "FlexNet Embedded Solaris x86-32",
+    "version": "FlexNet Embedded Solaris x86-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded Solaris x86-64 | FlexNet Embedded Solaris x86-64": {
+    "name": "FlexNet Embedded Solaris x86-64",
+    "version": "FlexNet Embedded Solaris x86-64",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded Solaris SPARC-32 | FlexNet Embedded Solaris SPARC-32": {
+    "name": "FlexNet Embedded Solaris SPARC-32",
+    "version": "FlexNet Embedded Solaris SPARC-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded Solaris SPARC-64 | FlexNet Embedded Solaris SPARC-64": {
+    "name": "FlexNet Embedded Solaris SPARC-64",
+    "version": "FlexNet Embedded Solaris SPARC-64",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded Java for Red Hat reference Linux x86-32 | FNE Java for Red Hat ref. Linux x86-32": {
+    "name": "FlexNet Embedded Java for Red Hat reference Linux x86-32",
+    "version": "FNE Java for Red Hat ref. Linux x86-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded Java for Red Hat reference Linux x86-64 | FNE Java for Red Hat ref. Linux x86-64": {
+    "name": "FlexNet Embedded Java for Red Hat reference Linux x86-64",
+    "version": "FNE Java for Red Hat ref. Linux x86-64",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded Java for Windows x86-32 | FlexNet Embedded Java for Windows x86-32": {
+    "name": "FlexNet Embedded Java for Windows x86-32",
+    "version": "FlexNet Embedded Java for Windows x86-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded Java for Windows x86-64 | FlexNet Embedded Java for Windows x86-64": {
+    "name": "FlexNet Embedded Java for Windows x86-64",
+    "version": "FlexNet Embedded Java for Windows x86-64",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded .NET for Windows x86-32 | FlexNet Embedded .NET for Windows x86-32": {
+    "name": "FlexNet Embedded .NET for Windows x86-32",
+    "version": "FlexNet Embedded .NET for Windows x86-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded .NET for Windows x86-64 | FlexNet Embedded .NET for Windows x86-64": {
+    "name": "FlexNet Embedded .NET for Windows x86-64",
+    "version": "FlexNet Embedded .NET for Windows x86-64",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded Android x86-32 | FlexNet Embedded Android x86-32": {
+    "name": "FlexNet Embedded Android x86-32",
+    "version": "FlexNet Embedded Android x86-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded porting kit | FlexNet Embedded porting kit": {
+    "name": "FlexNet Embedded porting kit",
+    "version": "FlexNet Embedded porting kit",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded Red Hat reference Linux x86-32 | FNE Red Hat reference Linux x86-32": {
+    "name": "FlexNet Embedded Red Hat reference Linux x86-32",
+    "version": "FNE Red Hat reference Linux x86-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded Red Hat reference Linux x86-64 | FNE Red Hat reference Linux x86-64": {
+    "name": "FlexNet Embedded Red Hat reference Linux x86-64",
+    "version": "FNE Red Hat reference Linux x86-64",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded Android ARM-32 | FlexNet Embedded Android ARM-32": {
+    "name": "FlexNet Embedded Android ARM-32",
+    "version": "FlexNet Embedded Android ARM-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded VxWorks 5.x MIPS-32 | FlexNet Embedded VxWorks 5.x MIPS-32": {
+    "name": "FlexNet Embedded VxWorks 5.x MIPS-32",
+    "version": "FlexNet Embedded VxWorks 5.x MIPS-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded FreeBSD x86-32 | FlexNet Embedded FreeBSD x86-32": {
+    "name": "FlexNet Embedded FreeBSD x86-32",
+    "version": "FlexNet Embedded FreeBSD x86-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded Java for Solaris SPARC-32 | FNE Java for Solaris SPARC-32": {
+    "name": "FlexNet Embedded Java for Solaris SPARC-32",
+    "version": "FNE Java for Solaris SPARC-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded Java for Solaris SPARC-64 | FNE Java for Solaris SPARC-64": {
+    "name": "FlexNet Embedded Java for Solaris SPARC-64",
+    "version": "FNE Java for Solaris SPARC-64",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded C XT OS X x86-32/64 | FlexNet Embedded C XT OS X x86-32/64": {
+    "name": "FlexNet Embedded C XT OS X x86-32/64",
+    "version": "FlexNet Embedded C XT OS X x86-32/64",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded Java XT OS X x86-32/64 | FlexNet Embedded Java XT OS X x86-32/64": {
+    "name": "FlexNet Embedded Java XT OS X x86-32/64",
+    "version": "FlexNet Embedded Java XT OS X x86-32/64",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded .NET Core XT | FlexNet Embedded .NET Core XT": {
+    "name": "FlexNet Embedded .NET Core XT",
+    "version": "FlexNet Embedded .NET Core XT",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded Virtualization Platforms | FlexNet Embedded Virtualization Platforms": {
+    "name": "FlexNet Embedded Virtualization Platforms",
+    "version": "FlexNet Embedded Virtualization Platforms",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded macOS Java XT platform - universal2 | FlexNet Embedded macOS Java XT platform \u2013 universal2": {
+    "name": "FlexNet Embedded macOS Java XT platform - universal2",
+    "version": "FlexNet Embedded macOS Java XT platform \u2013 universal2",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded macOS C XT platform - universal2 | FlexNet Embedded macOS C XT platform - universal2": {
+    "name": "FlexNet Embedded macOS C XT platform - universal2",
+    "version": "FlexNet Embedded macOS C XT platform - universal2",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded Linux ColdFire-32 | FlexNet Embedded Linux ColdFire-32": {
+    "name": "FlexNet Embedded Linux ColdFire-32",
+    "version": "FlexNet Embedded Linux ColdFire-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Publisher macOS platform - universal2 | FlexNet Publisher macOS platform - universal2": {
+    "name": "FlexNet Publisher macOS platform - universal2",
+    "version": "FlexNet Publisher macOS platform - universal2",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Publisher AIX PPC-64 | FlexNet Publisher AIX PPC-64 RS6000-64": {
+    "name": "FlexNet Publisher AIX PPC-64",
+    "version": "FlexNet Publisher AIX PPC-64 RS6000-64",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Publisher HP-UX IA-64 | FlexNet Publisher HP-UX IA-64": {
+    "name": "FlexNet Publisher HP-UX IA-64",
+    "version": "FlexNet Publisher HP-UX IA-64",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Publisher JAVA 32-bit | FlexNet Publisher JAVA 32-bit": {
+    "name": "FlexNet Publisher JAVA 32-bit",
+    "version": "FlexNet Publisher JAVA 32-bit",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Publisher Mac OS PPC-32, x86-32/64 | FNP Mac OS PPC-32, x86-32/64": {
+    "name": "FlexNet Publisher Mac OS PPC-32, x86-32/64",
+    "version": "FNP Mac OS PPC-32, x86-32/64",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Publisher Red Hat Reference Linux ARM64 | FlexNet Publisher Red Hat Reference Linux ARM64": {
+    "name": "FlexNet Publisher Red Hat Reference Linux ARM64",
+    "version": "FlexNet Publisher Red Hat Reference Linux ARM64",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Publisher Red Hat ref. Linux LSB x86-32 | FNP Redhat Ent Ref Linux LSB x86-32": {
+    "name": "FlexNet Publisher Red Hat ref. Linux LSB x86-32",
+    "version": "FNP Redhat Ent Ref Linux LSB x86-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Publisher Red Hat ref. Linux LSB x86-64 | FNP Redhat Ent Ref Linux LSB x86-64": {
+    "name": "FlexNet Publisher Red Hat ref. Linux LSB x86-64",
+    "version": "FNP Redhat Ent Ref Linux LSB x86-64",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Publisher Solaris SPARC-32 | FlexNet Publisher Solaris SPARC-32": {
+    "name": "FlexNet Publisher Solaris SPARC-32",
+    "version": "FlexNet Publisher Solaris SPARC-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Publisher Solaris SPARC-64 | FlexNet Publisher Solaris SPARC-64": {
+    "name": "FlexNet Publisher Solaris SPARC-64",
+    "version": "FlexNet Publisher Solaris SPARC-64",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Publisher Solaris x86-32 | FlexNet Publisher Solaris x86-32": {
+    "name": "FlexNet Publisher Solaris x86-32",
+    "version": "FlexNet Publisher Solaris x86-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Publisher Solaris x86-64 | FlexNet Publisher Solaris x86-64": {
+    "name": "FlexNet Publisher Solaris x86-64",
+    "version": "FlexNet Publisher Solaris x86-64",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Publisher SUSE Reference Linux ARM64 | FlexNet Publisher SUSE Reference Linux ARM64": {
+    "name": "FlexNet Publisher SUSE Reference Linux ARM64",
+    "version": "FlexNet Publisher SUSE Reference Linux ARM64",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Publisher SUSE Reference Linux LSB x86-32 | FNP SUSE Reference Linux LSB x86-32": {
+    "name": "FlexNet Publisher SUSE Reference Linux LSB x86-32",
+    "version": "FNP SUSE Reference Linux LSB x86-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Publisher SUSE Reference Linux LSB x86-64 | FNP SUSE Reference Linux LSB x86-64": {
+    "name": "FlexNet Publisher SUSE Reference Linux LSB x86-64",
+    "version": "FNP SUSE Reference Linux LSB x86-64",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Publisher Ubuntu Reference Linux LSB x86-64 | FlexNet Publisher Ubuntu Reference Linux LSB x86-64": {
+    "name": "FlexNet Publisher Ubuntu Reference Linux LSB x86-64",
+    "version": "FlexNet Publisher Ubuntu Reference Linux LSB x86-64",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Publisher Virtualization Platforms | FlexNet Publisher Virtualization Platforms": {
+    "name": "FlexNet Publisher Virtualization Platforms",
+    "version": "FlexNet Publisher Virtualization Platforms",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Publisher Windows x86-32 | FlexNet Publisher Windows x86-32": {
+    "name": "FlexNet Publisher Windows x86-32",
+    "version": "FlexNet Publisher Windows x86-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Publisher Windows x86-64 | FlexNet Publisher Windows x86-64": {
+    "name": "FlexNet Publisher Windows x86-64",
+    "version": "FlexNet Publisher Windows x86-64",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Publisher AIX PPC-32 | FlexNet Publisher AIX PPC-32, RS6000-32": {
+    "name": "FlexNet Publisher AIX PPC-32",
+    "version": "FlexNet Publisher AIX PPC-32, RS6000-32",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Embedded Java Usage Capture platform | FlexNet Embedded Java Usage Capture": {
+    "name": "FlexNet Embedded Java Usage Capture platform",
+    "version": "FlexNet Embedded Java Usage Capture",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Licensing (Embedded) Usage Capture | FlexNet Licensing Usage Capture Base": {
+    "name": "FlexNet Licensing (Embedded) Usage Capture",
+    "version": "FlexNet Licensing Usage Capture Base",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Licensing Evaluation | FNL-EVAL": {
+    "name": "FlexNet Licensing Evaluation",
+    "version": "FNL-EVAL",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Publisher Load Balancer | FlexNet Publisher Load Balancer": {
+    "name": "FlexNet Publisher Load Balancer",
+    "version": "FlexNet Publisher Load Balancer",
+    "product_line": "FlexNet Licensing",
+    "features": []
+  },
+  "FlexNet Operations Advanced Lifecycle Management Subscription | FNO-ALMS-APO": {
+    "name": "FlexNet Operations Advanced Lifecycle Management Subscription",
+    "version": "FNO-ALMS-APO",
+    "product_line": "FlexNet Operations",
+    "features": [
+      {
+        "name": "FLEXnet_Ops.LicChgMgmt",
+        "description": "FLEXnet_Ops.LicChgMgmt12",
+        "version": 12.0,
+        "quantity": 1
+      },
+      {
+        "name": "FLEXnet_Ops.IntgLicChgMgmt",
+        "description": "FLEXnet_Ops.IntgLicChgMgmt12",
+        "version": 12.0,
+        "quantity": 1
+      },
+      {
+        "name": "FLEXnet_Ops.SelfServLicChgMgmt",
+        "description": "FLEXnet_Ops.SelfServLicChgMgmt12",
+        "version": 12.0,
+        "quantity": 1
+      },
+      {
+        "name": "FLEXnet_Ops.FeatureOverride",
+        "description": "FLEXnet_Ops.FeatureOverride12",
+        "version": 12.0,
+        "quantity": 1
+      }
+    ]
+  },
+  "FlexNet Operations Advanced Lifecycle Management Perpetual | FNO-ALMPL-APO": {
+    "name": "FlexNet Operations Advanced Lifecycle Management Perpetual",
+    "version": "FNO-ALMPL-APO",
+    "product_line": "FlexNet Operations",
+    "features": [
+      {
+        "name": "FLEXnet_Ops.LicChgMgmt",
+        "description": "FLEXnet_Ops.LicChgMgmt12",
+        "version": 12.0,
+        "quantity": 1
+      },
+      {
+        "name": "FLEXnet_Ops.IntgLicChgMgmt",
+        "description": "FLEXnet_Ops.IntgLicChgMgmt12",
+        "version": 12.0,
+        "quantity": 1
+      },
+      {
+        "name": "FLEXnet_Ops.SelfServLicChgMgmt",
+        "description": "FLEXnet_Ops.SelfServLicChgMgmt12",
+        "version": 12.0,
+        "quantity": 1
+      },
+      {
+        "name": "FLEXnet_Ops.FeatureOverride",
+        "description": "FLEXnet_Ops.FeatureOverride12",
+        "version": 12.0,
+        "quantity": 1
+      }
+    ]
+  },
+  "FlexNet Operations Advanced Organization Management Subscription - APO | FNO-AOMS-APO": {
+    "name": "FlexNet Operations Advanced Organization Management Subscription - APO",
+    "version": "FNO-AOMS-APO",
+    "product_line": "FlexNet Operations",
+    "features": [
+      {
+        "name": "FLEXnet_Ops.MultiTierSupport",
+        "description": "FLEXnet_Ops.MultiTierSupport12",
+        "version": 12.0,
+        "quantity": 1
+      }
+    ]
+  },
+  "FlexNet Operations Advanced Organization Management Perpetual - APO | FNO-AOMPL-APO": {
+    "name": "FlexNet Operations Advanced Organization Management Perpetual - APO",
+    "version": "FNO-AOMPL-APO",
+    "product_line": "FlexNet Operations",
+    "features": [
+      {
+        "name": "FLEXnet_Ops.MultiTierSupport",
+        "description": "FLEXnet_Ops.MultiTierSupport12",
+        "version": 12.0,
+        "quantity": 1
+      }
+    ]
+  },
+  "FlexNet Operations Cloud subscription | FNOC-S": {
+    "name": "FlexNet Operations Cloud subscription",
+    "version": "FNOC-S",
+    "product_line": "FlexNet Operations Cloud",
+    "features": [
+      {
+        "name": "FLEXnet_Platform.Primary",
+        "description": "FLEXnet_Platform.Primary12",
+        "version": 12.0,
+        "quantity": 1
+      },
+      {
+        "name": "FLEXnet_Ops.LicGeneration",
+        "description": "FLEXnet_Ops.LicGeneration12",
+        "version": 12.0,
+        "quantity": 1
+      },
+      {
+        "name": "FLEXnet_Ops.IntgLicGeneration",
+        "description": "FLEXnet_Ops.IntgLicGeneration12",
+        "version": 12.0,
+        "quantity": 1
+      },
+      {
+        "name": "FLEXnet_Ops.SelfServLicGen",
+        "description": "FLEXnet_Ops.SelfServLicGen12",
+        "version": 12.0,
+        "quantity": 1
+      },
+      {
+        "name": "FLEXnet_Ops.Reporting",
+        "description": "FLEXnet_Ops.Reporting12",
+        "version": 12.0,
+        "quantity": 1
+      },
+      {
+        "name": "FLEXnet_Ops.CustomTechMgmt",
+        "description": "FLEXnet_Ops.CustomTechMgmt12",
+        "version": 12.0,
+        "quantity": 1
+      },
+      {
+        "name": "FLEXnet_Ops.FLEXnetEmbedded",
+        "description": "FLEXnet_Ops.FLEXnetEmbedded12",
+        "version": 12.0,
+        "quantity": 1
+      }
+    ]
+  },
+  "FlexNet Operations Cloud Licensing Service Subscription | FNO-CLSS-APO": {
+    "name": "FlexNet Operations Cloud Licensing Service Subscription",
+    "version": "FNO-CLSS-APO",
+    "product_line": "FlexNet Operations",
+    "features": [
+      {
+        "name": "FlexNet_Ops.CldLicServ",
+        "description": "FlexNet_Ops.CldLicServ12",
+        "version": 12.0,
+        "quantity": 1
+      }
+    ]
+  },
+  "FlexNet Operations Cloud Licensing Service Perpetual | FNO-CLSPL-APO": {
+    "name": "FlexNet Operations Cloud Licensing Service Perpetual",
+    "version": "FNO-CLSPL-APO",
+    "product_line": "FlexNet Operations",
+    "features": [
+      {
+        "name": "FlexNet_Ops.CldLicServ",
+        "description": "FlexNet_Ops.CldLicServ12",
+        "version": 12.0,
+        "quantity": 1
+      }
+    ]
+  },
+  "FlexNet Operations Cloud - Cloud Monetization API | FNOC-CMAPIS": {
+    "name": "FlexNet Operations Cloud - Cloud Monetization API",
+    "version": "FNOC-CMAPIS",
+    "product_line": "FlexNet Operations Cloud",
+    "features": [
+      {
+        "name": "flexnet_ops.cmapi",
+        "description": "flexnet_ops.cmapi12",
+        "version": 12.0,
+        "quantity": 1
+      }
+    ]
+  },
+  "FlexNet Operations Cloud - Cloud Monetization | FNOC-CMS": {
+    "name": "FlexNet Operations Cloud - Cloud Monetization",
+    "version": "FNOC-CMS",
+    "product_line": "FlexNet Operations Cloud",
+    "features": [
+      {
+        "name": "FlexNet_Ops.UsageMgmt",
+        "description": "FlexNet_Ops.UsageMgmt12",
+        "version": 12.0,
+        "quantity": 1
+      },
+      {
+        "name": "FlexNet_Ops.CldLicServ",
+        "description": "FlexNet_Ops.CldLicServ12",
+        "version": 12.0,
+        "quantity": 1
+      },
+      {
+        "name": "flexnet_ops.cmapi",
+        "description": "flexnet_ops.cmapi12",
+        "version": 12.0,
+        "quantity": 1
+      }
+    ]
+  },
+  "FlexNet Operations Cloud Usage Management subscription | FNOC-UMSS": {
+    "name": "FlexNet Operations Cloud Usage Management subscription",
+    "version": "FNOC-UMSS",
+    "product_line": "FlexNet Operations Cloud",
+    "features": [
+      {
+        "name": "FlexNet_Ops.UsageMgmt",
+        "description": "FlexNet_Ops.UsageMgmt12",
+        "version": 12.0,
+        "quantity": 1
+      },
+      {
+        "name": "FlexNet_Ops.CldLicServ",
+        "description": "FlexNet_Ops.CldLicServ12",
+        "version": 12.0,
+        "quantity": 1
+      }
+    ]
+  },
+  "FlexNet Operations Cloud - Cloud Licensing Service subscription | FNOC-CLS": {
+    "name": "FlexNet Operations Cloud - Cloud Licensing Service subscription",
+    "version": "FNOC-CLS",
+    "product_line": "FlexNet Operations Cloud",
+    "features": [
+      {
+        "name": "FlexNet_Ops.CldLicServ",
+        "description": "FlexNet_Ops.CldLicServ12",
+        "version": 12.0,
+        "quantity": 1
+      }
+    ]
+  },
+  "FlexNet Operations Usage Management Subscription | FNO-UMS-APO": {
+    "name": "FlexNet Operations Usage Management Subscription",
+    "version": "FNO-UMS-APO",
+    "product_line": "FlexNet Operations",
+    "features": [
+      {
+        "name": "FlexNet_Ops.CldLicServ",
+        "description": "FlexNet_Ops.CldLicServ12",
+        "version": 12.0,
+        "quantity": 1
+      },
+      {
+        "name": "FlexNet_Ops.UsageMgmt",
+        "description": "FlexNet_Ops.UsageMgmt12",
+        "version": 12.0,
+        "quantity": 1
+      }
+    ]
+  },
+  "FlexNet Operations Usage Management Perpetual | FNO-UMPL-APO": {
+    "name": "FlexNet Operations Usage Management Perpetual",
+    "version": "FNO-UMPL-APO",
+    "product_line": "FlexNet Operations",
+    "features": [
+      {
+        "name": "FlexNet_Ops.CldLicServ",
+        "description": "FlexNet_Ops.CldLicServ12",
+        "version": 12.0,
+        "quantity": 1
+      },
+      {
+        "name": "FlexNet_Ops.UsageMgmt",
+        "description": "FlexNet_Ops.UsageMgmt12",
+        "version": 12.0,
+        "quantity": 1
+      }
+    ]
   },
-  "FNO-EMAWS-CL-GS-XXX-B": {
-    "part_number": "FNO-EMAWS-CL-GS-XXX-B",
-    "name": "Entitlement Management AWS (US) Cloud Gold Subscription",
-    "version": "Subscription",
-    "products": [
+  "FlexNet Operations Cloud Advanced Lifecycle Management subscription | FNOC-ALMS": {
+    "name": "FlexNet Operations Cloud Advanced Lifecycle Management subscription",
+    "version": "FNOC-ALMS",
+    "product_line": "FlexNet Operations Cloud",
+    "features": [
       {
-        "name": "FlexNet Operations Cloud Renewal Management Subscription",
-        "version": "FNOC-RMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FLEXnet_Ops.LicChgMgmt",
+        "description": "FLEXnet_Ops.LicChgMgmt12",
+        "version": 12.0,
+        "quantity": 1
       },
       {
-        "name": "FlexNet Operations Cloud subscription",
-        "version": "FNOC-S",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FLEXnet_Ops.IntgLicChgMgmt",
+        "description": "FLEXnet_Ops.IntgLicChgMgmt12",
+        "version": 12.0,
+        "quantity": 1
       },
       {
-        "name": "FlexNet Operations Cloud Advanced Organization Management subscription",
-        "version": "FNOC-AOMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FLEXnet_Ops.SelfServLicChgMgmt",
+        "description": "FLEXnet_Ops.SelfServLicChgMgmt12",
+        "version": 12.0,
+        "quantity": 1
       },
       {
-        "name": "FlexNet Operations Cloud Advanced Lifecycle Management subscription",
-        "version": "FNOC-ALMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FLEXnet_Ops.FeatureOverride",
+        "description": "FLEXnet_Ops.FeatureOverride12",
+        "version": 12.0,
+        "quantity": 1
       }
     ]
   },
-  "FNO-EMAWS-CL-S-XXX": {
-    "part_number": "FNO-EMAWS-CL-S-XXX",
-    "name": "Entitlement Management AWS (US) Cloud Silver Subscription",
-    "version": "Subscription",
-    "products": [
+  "FlexNet Operations Cloud Advanced Organization Management subscription | FNOC-AOMS": {
+    "name": "FlexNet Operations Cloud Advanced Organization Management subscription",
+    "version": "FNOC-AOMS",
+    "product_line": "FlexNet Operations Cloud",
+    "features": [
       {
-        "name": "FlexNet Operations Cloud Advanced Organization Management subscription",
-        "version": "FNOC-AOMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Renewal Management Subscription",
-        "version": "FNOC-RMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Advanced Lifecycle Management subscription",
-        "version": "FNOC-ALMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud subscription",
-        "version": "FNOC-S",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-EMAWS-CL-S-XXX-B": {
-    "part_number": "FNO-EMAWS-CL-S-XXX-B",
-    "name": "Entitlement Management AWS (US) Cloud Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Advanced Organization Management subscription",
-        "version": "FNOC-AOMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud subscription",
-        "version": "FNOC-S",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Renewal Management Subscription",
-        "version": "FNOC-RMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Advanced Lifecycle Management subscription",
-        "version": "FNOC-ALMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FLEXnet_Ops.MultiTierSupport",
+        "description": "FLEXnet_Ops.MultiTierSupport12",
+        "version": 12.0,
+        "quantity": 1
       }
     ]
   },
-  "FNO-EMAWSEU-CL-EVAL-XXX": {
-    "part_number": "FNO-EMAWSEU-CL-EVAL-XXX",
-    "name": "Entitlement Management AWS (EU) Cloud Evaluation",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Evaluation",
-        "version": "FNOC-EVAL",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "Active Accounts",
-        "version": "FNOC-Accounts",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Advanced Lifecycle Management subscription",
-        "version": "FNOC-ALMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Advanced Organization Management subscription",
-        "version": "FNOC-AOMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Renewal Management Subscription",
-        "version": "FNOC-RMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud subscription",
-        "version": "FNOC-S",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
+  "FlexNet Operations Cloud Renewal Management Subscription | FNOC-RMS": {
+    "name": "FlexNet Operations Cloud Renewal Management Subscription",
+    "version": "FNOC-RMS",
+    "product_line": "FlexNet Operations Cloud",
+    "features": [
       {
-        "name": "FlexNet Operations Cloud \u2013 Cloud Monetization",
-        "version": "FNOC-CMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "flexnet_ops.renewal",
+        "description": "flexnet_ops.renewal12",
+        "version": 12.0,
+        "quantity": 1
       }
     ]
   },
-  "FNO-EMAWSEU-CL-EVAL-XXX-B": {
-    "part_number": "FNO-EMAWSEU-CL-EVAL-XXX-B",
-    "name": "Entitlement Management AWS (EU) Cloud Evaluation",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud \u2013 Cloud Monetization",
-        "version": "FNOC-CMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Advanced Lifecycle Management subscription",
-        "version": "FNOC-ALMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
+  "FlexNet Operations Subscription - APO | FNO-S-APO": {
+    "name": "FlexNet Operations Subscription - APO",
+    "version": "FNO-S-APO",
+    "product_line": "FlexNet Operations",
+    "features": [
       {
-        "name": "FlexNet Operations Cloud Renewal Management Subscription",
-        "version": "FNOC-RMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FLEXnet_Platform.Primary",
+        "description": "FLEXnet_Platform.Primary12",
+        "version": 12.0,
+        "quantity": 1
       },
       {
-        "name": "FlexNet Operations Cloud Advanced Organization Management subscription",
-        "version": "FNOC-AOMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FLEXnet_Ops.LicGeneration",
+        "description": "FLEXnet_Ops.LicGeneration12",
+        "version": 12.0,
+        "quantity": 1
       },
       {
-        "name": "FlexNet Operations Cloud subscription",
-        "version": "FNOC-S",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FLEXnet_Ops.IntgLicGeneration",
+        "description": "FLEXnet_Ops.IntgLicGeneration12",
+        "version": 12.0,
+        "quantity": 1
       },
-      {
-        "name": "Active Accounts",
-        "version": "FNOC-Accounts",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Evaluation",
-        "version": "FNOC-EVAL",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-EMAWSEU-CL-GS-XXX": {
-    "part_number": "FNO-EMAWSEU-CL-GS-XXX",
-    "name": "Entitlement Management AWS (EU) Cloud Gold Subscription",
-    "version": "Subscription",
-    "products": [
       {
-        "name": "FlexNet Operations Cloud Advanced Organization Management subscription",
-        "version": "FNOC-AOMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FLEXnet_Ops.SelfServLicGen",
+        "description": "FLEXnet_Ops.SelfServLicGen12",
+        "version": 12.0,
+        "quantity": 1
       },
       {
-        "name": "FlexNet Operations Cloud Advanced Lifecycle Management subscription",
-        "version": "FNOC-ALMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FLEXnet_Ops.Reporting",
+        "description": "FLEXnet_Ops.Reporting12",
+        "version": 12.0,
+        "quantity": 1
       },
       {
-        "name": "FlexNet Operations Cloud Renewal Management Subscription",
-        "version": "FNOC-RMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FLEXnet_Ops.CustomTechMgmt",
+        "description": "FLEXnet_Ops.CustomTechMgmt12",
+        "version": 12.0,
+        "quantity": 1
       },
       {
-        "name": "FlexNet Operations Cloud subscription",
-        "version": "FNOC-S",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FLEXnet_Ops.FLEXnetEmbedded",
+        "description": "FLEXnet_Ops.FLEXnetEmbedded12",
+        "version": 12.0,
+        "quantity": 1
       }
     ]
   },
-  "FNO-EMAWSEU-CL-GS-XXX-B": {
-    "part_number": "FNO-EMAWSEU-CL-GS-XXX-B",
-    "name": "Entitlement Management AWS (EU) Cloud Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Advanced Lifecycle Management subscription",
-        "version": "FNOC-ALMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Advanced Organization Management subscription",
-        "version": "FNOC-AOMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Renewal Management Subscription",
-        "version": "FNOC-RMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
+  "FlexNet Operations Renewal Management Subscription | FNO-RMS-APO": {
+    "name": "FlexNet Operations Renewal Management Subscription",
+    "version": "FNO-RMS-APO",
+    "product_line": "FlexNet Operations",
+    "features": [
       {
-        "name": "FlexNet Operations Cloud subscription",
-        "version": "FNOC-S",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "flexnet_ops.renewal",
+        "description": "flexnet_ops.renewal12",
+        "version": 12.0,
+        "quantity": 1
       }
     ]
   },
-  "FNO-EMAWSEU-CL-S-XXX": {
-    "part_number": "FNO-EMAWSEU-CL-S-XXX",
-    "name": "Entitlement Management AWS (EU) Cloud Silver Subscription",
-    "version": "Subscription",
-    "products": [
+  "FlexNet Operations Cloud - Salesforce Connector Subscription | FNOC-SFDC": {
+    "name": "FlexNet Operations Cloud - Salesforce Connector Subscription",
+    "version": "FNOC-SFDC",
+    "product_line": "FlexNet Operations Cloud",
+    "features": [
       {
-        "name": "FlexNet Operations Cloud Advanced Organization Management subscription",
-        "version": "FNOC-AOMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Advanced Lifecycle Management subscription",
-        "version": "FNOC-ALMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud subscription",
-        "version": "FNOC-S",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Renewal Management Subscription",
-        "version": "FNOC-RMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "fno_sfdc_connector",
+        "description": "FlexNet Operations Salesforce Connector",
+        "version": 1.0,
+        "quantity": 1
       }
     ]
   },
-  "FNO-EMAWSEU-CL-S-XXX-B": {
-    "part_number": "FNO-EMAWSEU-CL-S-XXX-B",
-    "name": "Entitlement Management AWS (EU) Cloud Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud subscription",
-        "version": "FNOC-S",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Advanced Lifecycle Management subscription",
-        "version": "FNOC-ALMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Renewal Management Subscription",
-        "version": "FNOC-RMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
+  "FlexNet Operations Renewal Management Perpetual | FNO-RMPL-APO": {
+    "name": "FlexNet Operations Renewal Management Perpetual",
+    "version": "FNO-RMPL-APO",
+    "product_line": "FlexNet Operations",
+    "features": [
       {
-        "name": "FlexNet Operations Cloud Advanced Organization Management subscription",
-        "version": "FNOC-AOMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-ESDG-XXXX": {
-    "part_number": "FNO-ESDG-XXXX",
-    "name": "FlexNet Operations Electronic Software Delivery Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Electronic Software Delivery Subscription",
-        "version": "FNO-ESDS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
+        "name": "flexnet_ops.renewal",
+        "description": "flexnet_ops.renewal12",
+        "version": 12.0,
+        "quantity": 1
       }
     ]
   },
-  "FNO-ESDS-XXXX": {
-    "part_number": "FNO-ESDS-XXXX",
-    "name": "FlexNet Operations Electronic Software Delivery Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Electronic Software Delivery Subscription",
-        "version": "FNO-ESDS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-EVAL-XXX": {
-    "part_number": "FNO-EVAL-XXX",
-    "name": "FlexNet Operations Evaluation",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Licensing Service Subscription",
-        "version": "FNO-CLSS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      },
-      {
-        "name": "ESD Downloads",
-        "version": "FNOC-Downloads",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
+  "FlexNet Operations Perpetual - APO | FNO-PL-APO": {
+    "name": "FlexNet Operations Perpetual - APO",
+    "version": "FNO-PL-APO",
+    "product_line": "FlexNet Operations",
+    "features": [
       {
-        "name": "ESD Storage",
-        "version": "FNOC-Storage",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FLEXnet_Platform.Primary",
+        "description": "FLEXnet_Platform.Primary12",
+        "version": 12.0,
+        "quantity": 1
       },
       {
-        "name": "FlexNet Operations Advanced Organization Management Subscription - APO",
-        "version": "FNO-AOMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
+        "name": "FLEXnet_Ops.CustomTechMgmt",
+        "description": "FLEXnet_Ops.CustomTechMgmt12",
+        "version": 12.0,
+        "quantity": 1
       },
       {
-        "name": "FlexNet Operations Usage Management Subscription",
-        "version": "FNO-UMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
+        "name": "FLEXnet_Ops.FLEXnetEmbedded",
+        "description": "FLEXnet_Ops.FLEXnetEmbedded12",
+        "version": 12.0,
+        "quantity": 1
       },
       {
-        "name": "FlexNet Operations Renewal Management Subscription",
-        "version": "FNO-RMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
+        "name": "FLEXnet_Ops.IntgLicGeneration",
+        "description": "FLEXnet_Ops.IntgLicGeneration12",
+        "version": 12.0,
+        "quantity": 1
       },
       {
-        "name": "FlexNet Operations Evaluation",
-        "version": "FNO-EVAL",
-        "product_line": "FlexNet Operations",
-        "features": []
+        "name": "FLEXnet_Ops.LicGeneration",
+        "description": "FLEXnet_Ops.LicGeneration12",
+        "version": 12.0,
+        "quantity": 1
       },
       {
-        "name": "FlexNet Operations Subscription - APO",
-        "version": "FNO-S-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
+        "name": "FLEXnet_Ops.Reporting",
+        "description": "FLEXnet_Ops.Reporting12",
+        "version": 12.0,
+        "quantity": 1
       },
       {
-        "name": "FlexNet Operations Advanced Lifecycle Management Subscription",
-        "version": "FNO-ALMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Electronic Software Delivery Subscription",
-        "version": "FNO-ESDS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-G-XXXX": {
-    "part_number": "FNO-G-XXXX",
-    "name": "FlexNet Operations Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Subscription - APO",
-        "version": "FNO-S-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-PL-XXXX": {
-    "part_number": "FNO-PL-XXXX",
-    "name": "FlexNet Operations Perpetual License",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Perpetual - APO",
-        "version": "FNO-PL-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-RMG-XXXX": {
-    "part_number": "FNO-RMG-XXXX",
-    "name": "FlexNet Operations Customer Growth Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Renewal Management Subscription",
-        "version": "FNO-RMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-RMPL-XXXX": {
-    "part_number": "FNO-RMPL-XXXX",
-    "name": "FlexNet Operations Customer Growth Perpetual License",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Renewal Management Perpetual",
-        "version": "FNO-RMPL-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-RMS-XXXX": {
-    "part_number": "FNO-RMS-XXXX",
-    "name": "FlexNet Operations Customer Growth Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Renewal Management Subscription",
-        "version": "FNO-RMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-S-XXXX": {
-    "part_number": "FNO-S-XXXX",
-    "name": "FlexNet Operations Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Subscription - APO",
-        "version": "FNO-S-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-SD-CL-GS-XXX": {
-    "part_number": "FNO-SD-CL-GS-XXX",
-    "name": "Software Delivery Cloud Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Electronic Delivery subscription",
-        "version": "FNOC-EDS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Updates and Insights Subscription",
-        "version": "FNO-UAI-APO",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-SD-CL-GS-XXX-B": {
-    "part_number": "FNO-SD-CL-GS-XXX-B",
-    "name": "Software Delivery Cloud Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Updates and Insights Subscription",
-        "version": "FNO-UAI-APO",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Electronic Delivery subscription",
-        "version": "FNOC-EDS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-SD-CL-S-XXX": {
-    "part_number": "FNO-SD-CL-S-XXX",
-    "name": "Software Delivery Cloud Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Updates and Insights Subscription",
-        "version": "FNO-UAI-APO",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Electronic Delivery subscription",
-        "version": "FNOC-EDS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-SD-CL-S-XXX-B": {
-    "part_number": "FNO-SD-CL-S-XXX-B",
-    "name": "Software Delivery Cloud Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Updates and Insights Subscription",
-        "version": "FNO-UAI-APO",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Electronic Delivery subscription",
-        "version": "FNOC-EDS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-SD-GS-XXX": {
-    "part_number": "FNO-SD-GS-XXX",
-    "name": "Software Delivery Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Electronic Software Delivery Subscription",
-        "version": "FNO-ESDS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-SD-S-XXX": {
-    "part_number": "FNO-SD-S-XXX",
-    "name": "Software Delivery Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Electronic Software Delivery Subscription",
-        "version": "FNO-ESDS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-SD-S-XXX-B": {
-    "part_number": "FNO-SD-S-XXX-B",
-    "name": "Software Delivery Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Electronic Software Delivery Subscription",
-        "version": "FNO-ESDS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-SDEUD-GB-CL-GS-XXX": {
-    "part_number": "FNO-SDEUD-GB-CL-GS-XXX",
-    "name": "Software Delivery Cloud EU Delivery Yearly Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "ESD Downloads",
-        "version": "FNOC-Downloads",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-SDEUD-GB-CL-GS-XXX-B": {
-    "part_number": "FNO-SDEUD-GB-CL-GS-XXX-B",
-    "name": "Software Delivery Cloud EU Delivery Yearly Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "ESD Downloads",
-        "version": "FNOC-Downloads",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-SDEUD-GB-CL-S-XXX": {
-    "part_number": "FNO-SDEUD-GB-CL-S-XXX",
-    "name": "Software Delivery Cloud EU Delivery Yearly Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "ESD Downloads",
-        "version": "FNOC-Downloads",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-SDEUD-GB-CL-S-XXX-B": {
-    "part_number": "FNO-SDEUD-GB-CL-S-XXX-B",
-    "name": "Software Delivery Cloud EU Delivery Yearly Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "ESD Downloads",
-        "version": "FNOC-Downloads",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-SDEUS-GB-CL-GS-XXX": {
-    "part_number": "FNO-SDEUS-GB-CL-GS-XXX",
-    "name": "Software Delivery Cloud EU Storage Yearly Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "ESD Storage",
-        "version": "FNOC-Storage",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-SDEUS-GB-CL-GS-XXX-B": {
-    "part_number": "FNO-SDEUS-GB-CL-GS-XXX-B",
-    "name": "Software Delivery Cloud EU Storage Yearly Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "ESD Storage",
-        "version": "FNOC-Storage",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-SDEUS-GB-CL-S-XXX": {
-    "part_number": "FNO-SDEUS-GB-CL-S-XXX",
-    "name": "Software Delivery Cloud EU Storage Yearly Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "ESD Storage",
-        "version": "FNOC-Storage",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-SDEUS-GB-CL-S-XXX-B": {
-    "part_number": "FNO-SDEUS-GB-CL-S-XXX-B",
-    "name": "Software Delivery Cloud EU Storage Yearly Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "ESD Storage",
-        "version": "FNOC-Storage",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-SDUSD-GB-CL-GS-XXX": {
-    "part_number": "FNO-SDUSD-GB-CL-GS-XXX",
-    "name": "Software Delivery Cloud US Delivery Yearly Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "ESD Downloads",
-        "version": "FNOC-Downloads",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-SDUSD-GB-CL-GS-XXX-B": {
-    "part_number": "FNO-SDUSD-GB-CL-GS-XXX-B",
-    "name": "Software Delivery Cloud US Delivery Yearly Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "ESD Downloads",
-        "version": "FNOC-Downloads",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-SDUSD-GB-CL-S-XXX": {
-    "part_number": "FNO-SDUSD-GB-CL-S-XXX",
-    "name": "Software Delivery Cloud US Delivery Yearly Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "ESD Downloads",
-        "version": "FNOC-Downloads",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-SDUSD-GB-CL-S-XXX-B": {
-    "part_number": "FNO-SDUSD-GB-CL-S-XXX-B",
-    "name": "Software Delivery Cloud US Delivery Yearly Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "ESD Downloads",
-        "version": "FNOC-Downloads",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-SDUSSUSD-GB-CL-GS-XXX": {
-    "part_number": "FNO-SDUSSUSD-GB-CL-GS-XXX",
-    "name": "Software Delivery Cloud US Storage Yearly Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "ESD Storage",
-        "version": "FNOC-Storage",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-SDUSSUSD-GB-CL-GS-XXX-B": {
-    "part_number": "FNO-SDUSSUSD-GB-CL-GS-XXX-B",
-    "name": "Software Delivery Cloud US Storage Yearly Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "ESD Storage",
-        "version": "FNOC-Storage",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-SDUSSUSD-GB-CL-S-XXX": {
-    "part_number": "FNO-SDUSSUSD-GB-CL-S-XXX",
-    "name": "Software Delivery Cloud US Storage Yearly Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "ESD Storage",
-        "version": "FNOC-Storage",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-SDUSSUSD-GB-CL-S-XXX-B": {
-    "part_number": "FNO-SDUSSUSD-GB-CL-S-XXX-B",
-    "name": "Software Delivery Cloud US Storage Yearly Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "ESD Storage",
-        "version": "FNOC-Storage",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-UAI-CL-EVAL-XXX": {
-    "part_number": "FNO-UAI-CL-EVAL-XXX",
-    "name": "FlexNet Operations Updates and Insights Cloud Evaluation",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Updates and Insights Standalone Subscription",
-        "version": "FNO-SAUAI-APO",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-UMG-XXXX": {
-    "part_number": "FNO-UMG-XXXX",
-    "name": "FlexNet Operations Usage Management Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Usage Management Subscription",
-        "version": "FNO-UMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-UMPL-XXXX": {
-    "part_number": "FNO-UMPL-XXXX",
-    "name": "FlexNet Operations Usage Management Perpetual License",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Usage Management Perpetual",
-        "version": "FNO-UMPL-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-UMS-XXXX": {
-    "part_number": "FNO-UMS-XXXX",
-    "name": "FlexNet Operations Usage Management Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Usage Management Subscription",
-        "version": "FNO-UMS-APO",
-        "product_line": "FlexNet Operations",
-        "features": []
-      }
-    ]
-  },
-  "FNO-UPS-CL-GS-XXX": {
-    "part_number": "FNO-UPS-CL-GS-XXX",
-    "name": "Updates (Standalone) Cloud Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Updates and Insights Standalone Subscription",
-        "version": "FNO-SAUAI-APO",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNO-UPS-CL-SS-XXX": {
-    "part_number": "FNO-UPS-CL-SS-XXX",
-    "name": "Updates (Standalone) Cloud Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Updates and Insights Standalone Subscription",
-        "version": "FNO-SAUAI-APO",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FLEXnet_Ops.SelfServLicGen",
+        "description": "FLEXnet_Ops.SelfServLicGen12",
+        "version": 12.0,
+        "quantity": 1
       }
     ]
   },
-  "FNOC-AWS-EVAL-XXX": {
-    "part_number": "FNOC-AWS-EVAL-XXX",
-    "name": "FlexNet Operations Cloud AWS Evaluation",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Production Copy Service",
-        "version": "FNOC-PCS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Usage Management subscription",
-        "version": "FNOC-UMSS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
+  "ESD Downloads | FNOC-Downloads": {
+    "name": "ESD Downloads",
+    "version": "FNOC-Downloads",
+    "product_line": "FlexNet Operations Cloud",
+    "features": [
       {
-        "name": "Active Accounts",
-        "version": "FNOC-Accounts",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Renewal Management Subscription",
-        "version": "FNOC-RMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud subscription",
-        "version": "FNOC-S",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Evaluation",
-        "version": "FNOC-EVAL",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Advanced Lifecycle Management subscription",
-        "version": "FNOC-ALMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud Advanced Organization Management subscription",
-        "version": "FNOC-AOMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      },
-      {
-        "name": "FlexNet Operations Cloud - Cloud Licensing Service subscription",
-        "version": "FNOC-CLS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOC-AWS-GS-XXX": {
-    "part_number": "FNOC-AWS-GS-XXX",
-    "name": "FlexNet Operations Cloud AWS Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud subscription",
-        "version": "FNOC-S",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOC-AWS-S-XXX": {
-    "part_number": "FNOC-AWS-S-XXX",
-    "name": "FlexNet Operations Cloud AWS Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud subscription",
-        "version": "FNOC-S",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOC-UI-G-XXX": {
-    "part_number": "FNOC-UI-G-XXX",
-    "name": "FlexNet Operations Cloud Updates and Insights Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Updates and Insights Subscription",
-        "version": "FNO-UAI-APO",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOC-UI-S-XXX": {
-    "part_number": "FNOC-UI-S-XXX",
-    "name": "FlexNet Operations Cloud Updates and Insights Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Updates and Insights Subscription",
-        "version": "FNO-UAI-APO",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOC-UIS-G-XXX": {
-    "part_number": "FNOC-UIS-G-XXX",
-    "name": "FlexNet Operations Cloud Updates and Insights Standalone Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Updates and Insights Standalone Subscription",
-        "version": "FNO-SAUAI-APO",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOC-UIS-S-XXX": {
-    "part_number": "FNOC-UIS-S-XXX",
-    "name": "FlexNet Operations Cloud Updates and Insights Standalone Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Updates and Insights Standalone Subscription",
-        "version": "FNO-SAUAI-APO",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-ALMG-XXX": {
-    "part_number": "FNOOD-ALMG-XXX",
-    "name": "FlexNet Operations Cloud Advanced Lifecycle Management Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Advanced Lifecycle Management subscription",
-        "version": "FNOC-ALMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-ALMS-XXX": {
-    "part_number": "FNOOD-ALMS-XXX",
-    "name": "FlexNet Operations Cloud Advanced Lifecycle Management Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Advanced Lifecycle Management subscription",
-        "version": "FNOC-ALMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-AOG-XXX": {
-    "part_number": "FNOOD-AOG-XXX",
-    "name": "FlexNet Operations Cloud Advanced Organization Management Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Advanced Organization Management subscription",
-        "version": "FNOC-AOMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-AOS-XXX": {
-    "part_number": "FNOOD-AOS-XXX",
-    "name": "FlexNet Operations Cloud Advanced Organization Management Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Advanced Organization Management subscription",
-        "version": "FNOC-AOMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-CLSG-XXX": {
-    "part_number": "FNOOD-CLSG-XXX",
-    "name": "FlexNet Operations Cloud - Cloud Licensing Service Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud - Cloud Licensing Service subscription",
-        "version": "FNOC-CLS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-CLSS-XXX": {
-    "part_number": "FNOOD-CLSS-XXX",
-    "name": "FlexNet Operations Cloud - Cloud Licensing Service Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud - Cloud Licensing Service subscription",
-        "version": "FNOC-CLS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-DOC-XXX": {
-    "part_number": "FNOOD-DOC-XXX",
-    "name": "FlexNet Operations Cloud Documentation",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Documentation",
-        "version": "FNOC-DOC",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-EDS-XXX": {
-    "part_number": "FNOOD-EDS-XXX",
-    "name": "FlexNet Operations Cloud Electronic Delivery Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Electronic Delivery subscription",
-        "version": "FNOC-EDS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-EDSG-XXX": {
-    "part_number": "FNOOD-EDSG-XXX",
-    "name": "FlexNet Operations Cloud Electronic Delivery Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Electronic Delivery subscription",
-        "version": "FNOC-EDS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-EMS-XXX": {
-    "part_number": "FNOOD-EMS-XXX",
-    "name": "FlexNet Operations Cloud Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud subscription",
-        "version": "FNOC-S",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "BytesDownloaded",
+        "description": "Downloads",
+        "version": 1.0,
+        "quantity": 1073741824
       }
     ]
   },
-  "FNOOD-EVAL-XXX": {
-    "part_number": "FNOOD-EVAL-XXX",
+  "FlexNet Operations Cloud Evaluation | FNOC-EVAL": {
     "name": "FlexNet Operations Cloud Evaluation",
-    "version": "Subscription",
-    "products": [
+    "version": "FNOC-EVAL",
+    "product_line": "FlexNet Operations Cloud",
+    "features": []
+  },
+  "FlexNet Operations Cloud Electronic Delivery subscription | FNOC-EDS": {
+    "name": "FlexNet Operations Cloud Electronic Delivery subscription",
+    "version": "FNOC-EDS",
+    "product_line": "FlexNet Operations Cloud",
+    "features": [
       {
-        "name": "FlexNet Operations Cloud Advanced Organization Management subscription",
-        "version": "FNOC-AOMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FlexNet_Ops.ESD",
+        "description": "FlexNet_Ops.ESD12",
+        "version": 12.0,
+        "quantity": 1
+      }
+    ]
+  },
+  "Active Accounts | FNOC-Accounts": {
+    "name": "Active Accounts",
+    "version": "FNOC-Accounts",
+    "product_line": "FlexNet Operations Cloud",
+    "features": [
+      {
+        "name": "ActiveAccounts",
+        "description": "Active Accounts",
+        "version": 1.0,
+        "quantity": 1
+      }
+    ]
+  },
+  "ESD Storage | FNOC-Storage": {
+    "name": "ESD Storage",
+    "version": "FNOC-Storage",
+    "product_line": "FlexNet Operations Cloud",
+    "features": [
+      {
+        "name": "KilobytesStored",
+        "description": "ESD Storage",
+        "version": 1.0,
+        "quantity": 1048576
+      }
+    ]
+  },
+  "FlexNet Operations Cloud Updates and Insights Subscription | FNO-UAI-APO": {
+    "name": "FlexNet Operations Cloud Updates and Insights Subscription",
+    "version": "FNO-UAI-APO",
+    "product_line": "FlexNet Operations Cloud",
+    "features": [
+      {
+        "name": "FLEXnet_Ops.CustomTechMgmt",
+        "description": "FLEXnet_Ops.CustomTechMgmt12",
+        "version": 12.0,
+        "quantity": 1
       },
       {
-        "name": "FlexNet Operations Cloud Updates and Insights Subscription",
-        "version": "FNO-UAI-APO",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FLEXnet_Ops.FLEXnetEmbedded",
+        "description": "FLEXnet_Ops.FLEXnetEmbedded12",
+        "version": 12.0,
+        "quantity": 1
       },
       {
-        "name": "ESD Storage",
-        "version": "FNOC-Storage",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FLEXnet_Ops.IntgLicGeneration",
+        "description": "FLEXnet_Ops.IntgLicGeneration12",
+        "version": 12.0,
+        "quantity": 1
       },
       {
-        "name": "ESD Downloads",
-        "version": "FNOC-Downloads",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FLEXnet_Ops.LicGeneration",
+        "description": "FLEXnet_Ops.LicGeneration12",
+        "version": 12.0,
+        "quantity": 1
       },
       {
-        "name": "FlexNet Operations Cloud Usage Management subscription",
-        "version": "FNOC-UMSS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FLEXnet_Ops.Reporting",
+        "description": "FLEXnet_Ops.Reporting12",
+        "version": 12.0,
+        "quantity": 1
       },
       {
-        "name": "FlexNet Operations Cloud standalone Electronic Delivery subscription",
-        "version": "FNOC-SEDS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FLEXnet_Ops.SelfServLicGen",
+        "description": "FLEXnet_Ops.SelfServLicGen12",
+        "version": 12.0,
+        "quantity": 1
       },
       {
-        "name": "FlexNet Operations Cloud Evaluation",
-        "version": "FNOC-EVAL",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FLEXnet_Platform.Primary",
+        "description": "FLEXnet_Platform.Primary12",
+        "version": 12.0,
+        "quantity": 1
       },
       {
-        "name": "FlexNet Operations Cloud subscription",
-        "version": "FNOC-S",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "flexnet_ops.updates",
+        "description": "flexnet_ops.updates12",
+        "version": 12.0,
+        "quantity": 1
       },
       {
-        "name": "FlexNet Operations Cloud Advanced Lifecycle Management subscription",
-        "version": "FNOC-ALMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FlexNet_Ops.ESD",
+        "description": "FlexNet_Ops.ESD12",
+        "version": 12.0,
+        "quantity": 1
+      }
+    ]
+  },
+  "FlexNet Operations Electronic Software Delivery Subscription | FNO-ESDS-APO": {
+    "name": "FlexNet Operations Electronic Software Delivery Subscription",
+    "version": "FNO-ESDS-APO",
+    "product_line": "FlexNet Operations",
+    "features": [
+      {
+        "name": "FlexNet_Ops.ESD",
+        "description": "FlexNet_Ops.ESD12",
+        "version": 12.0,
+        "quantity": 1
+      }
+    ]
+  },
+  "FlexNet Operations Evaluation | FNO-EVAL": {
+    "name": "FlexNet Operations Evaluation",
+    "version": "FNO-EVAL",
+    "product_line": "FlexNet Operations",
+    "features": []
+  },
+  "FlexNet Operations Cloud Updates and Insights Standalone Subscription | FNO-SAUAI-APO": {
+    "name": "FlexNet Operations Cloud Updates and Insights Standalone Subscription",
+    "version": "FNO-SAUAI-APO",
+    "product_line": "FlexNet Operations Cloud",
+    "features": [
+      {
+        "name": "FlexNet_Ops.ESD",
+        "description": "FlexNet_Ops.ESD12",
+        "version": 12.0,
+        "quantity": 1
       },
       {
-        "name": "FlexNet Operations Cloud Electronic Delivery subscription",
-        "version": "FNOC-EDS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FLEXnet_Ops.FLEXnetEmbedded",
+        "description": "FLEXnet_Ops.FLEXnetEmbedded12",
+        "version": 12.0,
+        "quantity": 1
       },
       {
-        "name": "FlexNet Operations Cloud - Cloud Licensing Service subscription",
-        "version": "FNOC-CLS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FLEXnet_Ops.IntgLicGeneration",
+        "description": "FLEXnet_Ops.IntgLicGeneration12",
+        "version": 12.0,
+        "quantity": 1
       },
       {
-        "name": "Active Accounts",
-        "version": "FNOC-Accounts",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FLEXnet_Ops.LicGeneration",
+        "description": "FLEXnet_Ops.LicGeneration12",
+        "version": 12.0,
+        "quantity": 1
       },
       {
-        "name": "FlexNet Operations Cloud Renewal Management Subscription",
-        "version": "FNOC-RMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FLEXnet_Ops.Reporting",
+        "description": "FLEXnet_Ops.Reporting12",
+        "version": 12.0,
+        "quantity": 1
+      },
+      {
+        "name": "FLEXnet_Platform.Primary",
+        "description": "FLEXnet_Platform.Primary12",
+        "version": 12.0,
+        "quantity": 1
+      },
+      {
+        "name": "flexnet_ops.updates",
+        "description": "flexnet_ops.updates12",
+        "version": 12.0,
+        "quantity": 1
+      },
+      {
+        "name": "flexnet_ops.anondevupdates",
+        "description": "flexnet_ops.anondevupdates12",
+        "version": 12.0,
+        "quantity": 1
+      },
+      {
+        "name": "FLEXnet_Ops.IntgLicChgMgmt",
+        "description": "FLEXnet_Ops.IntgLicChgMgmt12",
+        "version": 12.0,
+        "quantity": 1
       }
     ]
   },
-  "FNOOD-FIRESG-XXX": {
-    "part_number": "FNOOD-FIRESG-XXX",
-    "name": "FlexNet Operations Cloud Flexera Ireland Storage Yearly Gold Subscription",
-    "version": "Subscription",
-    "products": [
+  "FlexNet Operations Cloud Production Copy Service | FNOC-PCS": {
+    "name": "FlexNet Operations Cloud Production Copy Service",
+    "version": "FNOC-PCS",
+    "product_line": "FlexNet Operations Cloud",
+    "features": []
+  },
+  "FlexNet Operations Cloud Documentation | FNOC-DOC": {
+    "name": "FlexNet Operations Cloud Documentation",
+    "version": "FNOC-DOC",
+    "product_line": "FlexNet Operations Cloud",
+    "features": []
+  },
+  "FlexNet Operations Cloud standalone Electronic Delivery subscription | FNOC-SEDS": {
+    "name": "FlexNet Operations Cloud standalone Electronic Delivery subscription",
+    "version": "FNOC-SEDS",
+    "product_line": "FlexNet Operations Cloud",
+    "features": [
       {
-        "name": "ESD Storage",
-        "version": "FNOC-Storage",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FLEXnet_Platform.Primary",
+        "description": "FLEXnet_Platform.Primary12",
+        "version": 12.0,
+        "quantity": 1
+      },
+      {
+        "name": "FLEXnet_Ops.LicGeneration",
+        "description": "FLEXnet_Ops.LicGeneration12",
+        "version": 12.0,
+        "quantity": 1
+      },
+      {
+        "name": "FLEXnet_Ops.IntgLicGeneration",
+        "description": "FLEXnet_Ops.IntgLicGeneration12",
+        "version": 12.0,
+        "quantity": 1
+      },
+      {
+        "name": "FLEXnet_Ops.SelfServLicGen",
+        "description": "FLEXnet_Ops.SelfServLicGen12",
+        "version": 12.0,
+        "quantity": 1
+      },
+      {
+        "name": "FLEXnet_Ops.Reporting",
+        "description": "FLEXnet_Ops.Reporting12",
+        "version": 12.0,
+        "quantity": 1
+      },
+      {
+        "name": "FlexNet_Ops.ESD",
+        "description": "FlexNet_Ops.ESD12",
+        "version": 12.0,
+        "quantity": 1
       }
     ]
   },
-  "FNOOD-FIRESSS-XXX": {
-    "part_number": "FNOOD-FIRESSS-XXX",
-    "name": "FlexNet Operations Cloud Flexera Ireland Storage Yearly Silver Subscription",
-    "version": "Subscription",
-    "products": [
+  "FlexNet Operations Cloud Standalone Renewal Management Subscription | FNOC-SRMS": {
+    "name": "FlexNet Operations Cloud Standalone Renewal Management Subscription",
+    "version": "FNOC-SRMS",
+    "product_line": "FlexNet Operations Cloud",
+    "features": [
       {
-        "name": "ESD Storage",
-        "version": "FNOC-Storage",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-FUSSG-XXX": {
-    "part_number": "FNOOD-FUSSG-XXX",
-    "name": "FlexNet Operations Cloud Flexera US Storage Yearly Gold Subscription",
-    "version": "Subscription",
-    "products": [
+        "name": "flexnet_ops.renewal",
+        "description": "flexnet_ops.renewal12",
+        "version": 12.0,
+        "quantity": 1
+      },
       {
-        "name": "ESD Storage",
-        "version": "FNOC-Storage",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-FUSSS-XXX": {
-    "part_number": "FNOOD-FUSSS-XXX",
-    "name": "FlexNet Operations Cloud Flexera US Storage Yearly Silver Subscription",
-    "version": "Subscription",
-    "products": [
+        "name": "FLEXnet_Platform.Primary",
+        "description": "FLEXnet_Platform.Primary12",
+        "version": 12.0,
+        "quantity": 1
+      },
       {
-        "name": "ESD Storage",
-        "version": "FNOC-Storage",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-IREDG-XXX": {
-    "part_number": "FNOOD-IREDG-XXX",
-    "name": "FlexNet Operations Cloud Flexera Ireland Delivery Yearly Gold Subscription",
-    "version": "Subscription",
-    "products": [
+        "name": "FLEXnet_Ops.LicGeneration",
+        "description": "FLEXnet_Ops.LicGeneration12",
+        "version": 12.0,
+        "quantity": 1
+      },
       {
-        "name": "ESD Downloads",
-        "version": "FNOC-Downloads",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-IREDSS-XXX": {
-    "part_number": "FNOOD-IREDSS-XXX",
-    "name": "FlexNet Operations Cloud Flexera Ireland Delivery Yearly Silver Subscription",
-    "version": "Subscription",
-    "products": [
+        "name": "FLEXnet_Ops.IntgLicGeneration",
+        "description": "FLEXnet_Ops.IntgLicGeneration12",
+        "version": 12.0,
+        "quantity": 1
+      },
       {
-        "name": "ESD Downloads",
-        "version": "FNOC-Downloads",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-MON-GS-XXX": {
-    "part_number": "FNOOD-MON-GS-XXX",
-    "name": "FlexNet Operations Cloud Monetization Gold Subscription",
-    "version": "Subscription",
-    "products": [
+        "name": "FLEXnet_Ops.SelfServLicGen",
+        "description": "FLEXnet_Ops.SelfServLicGen12",
+        "version": 12.0,
+        "quantity": 1
+      },
       {
-        "name": "FlexNet Operations Cloud \u2013 Cloud Monetization",
-        "version": "FNOC-CMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-MON-S-XXX": {
-    "part_number": "FNOOD-MON-S-XXX",
-    "name": "FlexNet Operations Cloud Monetization Silver Subscription",
-    "version": "Subscription",
-    "products": [
+        "name": "FLEXnet_Ops.Reporting",
+        "description": "FLEXnet_Ops.Reporting12",
+        "version": 12.0,
+        "quantity": 1
+      },
       {
-        "name": "FlexNet Operations Cloud \u2013 Cloud Monetization",
-        "version": "FNOC-CMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-MONAPI-GS-XXX": {
-    "part_number": "FNOOD-MONAPI-GS-XXX",
-    "name": "FlexNet Operations Cloud Monetization API Gold Subscription",
-    "version": "Subscription",
-    "products": [
+        "name": "FLEXnet_Ops.CustomTechMgmt",
+        "description": "FLEXnet_Ops.CustomTechMgmt12",
+        "version": 12.0,
+        "quantity": 1
+      },
       {
-        "name": "FlexNet Operations Cloud \u2013 Cloud Monetization API",
-        "version": "FNOC-CMAPIS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-MONAPI-S-XXX": {
-    "part_number": "FNOOD-MONAPI-S-XXX",
-    "name": "FlexNet Operations Cloud Monetization API Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud \u2013 Cloud Monetization API",
-        "version": "FNOC-CMAPIS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-PCG-XXX": {
-    "part_number": "FNOOD-PCG-XXX",
-    "name": "FlexNet Operations Cloud Production Copy Service Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Production Copy Service",
-        "version": "FNOC-PCS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-PCG-XXX-B": {
-    "part_number": "FNOOD-PCG-XXX-B",
-    "name": "FlexNet Operations Cloud Production Copy Service Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Production Copy Service",
-        "version": "FNOC-PCS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-PCS-XXX": {
-    "part_number": "FNOOD-PCS-XXX",
-    "name": "FlexNet Operations Cloud Production Copy Service Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Production Copy Service",
-        "version": "FNOC-PCS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-PCS-XXX-B": {
-    "part_number": "FNOOD-PCS-XXX-B",
-    "name": "FlexNet Operations Cloud Production Copy Service Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Production Copy Service",
-        "version": "FNOC-PCS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-RMG-XXX": {
-    "part_number": "FNOOD-RMG-XXX",
-    "name": "FlexNet Operations Cloud Customer Growth Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Renewal Management Subscription",
-        "version": "FNOC-RMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-RMS-XXX": {
-    "part_number": "FNOOD-RMS-XXX",
-    "name": "FlexNet Operations Cloud Customer Growth Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Renewal Management Subscription",
-        "version": "FNOC-RMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-SEDS-XXX": {
-    "part_number": "FNOOD-SEDS-XXX",
-    "name": "FlexNet Operations Cloud Standalone Electronic Delivery Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud standalone Electronic Delivery subscription",
-        "version": "FNOC-SEDS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-SEDSG-XXX": {
-    "part_number": "FNOOD-SEDSG-XXX",
-    "name": "FlexNet Operations Cloud Standalone Electronic Delivery Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud standalone Electronic Delivery subscription",
-        "version": "FNOC-SEDS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-SRMG-XXXX": {
-    "part_number": "FNOOD-SRMG-XXXX",
-    "name": "FlexNet Operations Cloud Standalone Customer Growth Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Standalone Renewal Management Subscription",
-        "version": "FNOC-SRMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-SRMS-XXXX": {
-    "part_number": "FNOOD-SRMS-XXXX",
-    "name": "FlexNet Operations Cloud Standalone Customer Growth Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Standalone Renewal Management Subscription",
-        "version": "FNOC-SRMS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-SRVG-XXX": {
-    "part_number": "FNOOD-SRVG-XXX",
-    "name": "FlexNet Operations Cloud Service Fee Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "Active Accounts",
-        "version": "FNOC-Accounts",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-SRVS-XXX": {
-    "part_number": "FNOOD-SRVS-XXX",
-    "name": "FlexNet Operations Cloud Service Fee Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "Active Accounts",
-        "version": "FNOC-Accounts",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-UMG-XXX": {
-    "part_number": "FNOOD-UMG-XXX",
-    "name": "FlexNet Operations Cloud Usage Management Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Usage Management subscription",
-        "version": "FNOC-UMSS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-UMS-XXX": {
-    "part_number": "FNOOD-UMS-XXX",
-    "name": "FlexNet Operations Cloud Usage Management Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "FlexNet Operations Cloud Usage Management subscription",
-        "version": "FNOC-UMSS",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-USDG-XXX": {
-    "part_number": "FNOOD-USDG-XXX",
-    "name": "FlexNet Operations Cloud Flexera US Delivery Yearly Gold Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "ESD Downloads",
-        "version": "FNOC-Downloads",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
-      }
-    ]
-  },
-  "FNOOD-USDSS-XXX": {
-    "part_number": "FNOOD-USDSS-XXX",
-    "name": "FlexNet Operations Cloud Flexera US Delivery Yearly Silver Subscription",
-    "version": "Subscription",
-    "products": [
-      {
-        "name": "ESD Downloads",
-        "version": "FNOC-Downloads",
-        "product_line": "FlexNet Operations Cloud",
-        "features": []
+        "name": "FLEXnet_Ops.FLEXnetEmbedded",
+        "description": "FLEXnet_Ops.FLEXnetEmbedded12",
+        "version": 12.0,
+        "quantity": 1
       }
     ]
   }

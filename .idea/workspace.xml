@@ -4,11 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5f20ad5-fb92-4526-bd0a-31fcc59b9baa" name="Changes" comment="generate products new">
+    <list default="true" id="e5f20ad5-fb92-4526-bd0a-31fcc59b9baa" name="Changes" comment="refactor directory structure">
+      <change afterPath="$PROJECT_DIR$/CatalogItem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feature.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FeatureData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FeatureExport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MasterData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartNumberExport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductExport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramArgs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Suite.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/INST-SearchCatalogItem.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/INST-SearchCatalogItem.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PLC_SKU_Mapping-Master.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/PLC_SKU_Mapping-Master.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/pcs-products.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/pcs-products.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table.py" beforeDir="false" afterPath="$PROJECT_DIR$/table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schneider-electric-demo/Activator/Activator/App.config" beforeDir="false" afterPath="$PROJECT_DIR$/schneider-electric-demo/Activator/Activator/App.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schneider-electric-demo/Activator/Activator/Properties/Settings.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/schneider-electric-demo/Activator/Activator/Properties/Settings.Designer.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,19 +65,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.program.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/tmr-development&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/juliansmith/OneDrive - Flexera, Inc/Assignments/PLC Migration/PLC&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
+    "Python.program.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "feature/tmr-development",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/juliansmith/OneDrive - Flexera, Inc/Assignments/PLC Migration/PLC",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PLC" />
@@ -140,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774949222360</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactor directory structure">
+      <option name="closed" value="true" />
+      <created>1774951842320</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1774951842320</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -148,6 +171,7 @@
     <MESSAGE value="second commit" />
     <MESSAGE value="added columns" />
     <MESSAGE value="generate products new" />
-    <option name="LAST_COMMIT_MESSAGE" value="generate products new" />
+    <MESSAGE value="refactor directory structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor directory structure" />
   </component>
 </project>

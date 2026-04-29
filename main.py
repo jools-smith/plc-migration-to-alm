@@ -1,116 +1,37 @@
 # This is a sample Python script.
-import argparse
+import csv
 import json
 import os
-from dataclasses import dataclass, asdict
+import xml.etree.ElementTree as ET
+from dataclasses import asdict
 from pathlib import Path
 
+from CatalogItem import CatalogItem
+from Constants import Constants
+from Feature import Feature
+from FeatureData import FeatureData
+from FeatureExport import FeatureExport
+from MasterData import MasterData
+from PartNumberExport import PartNumberExport
+from Product import Product
+from ProductExport import ProductExport
+from Suite import Suite
 from table import Table
 
 print(f'program {__name__}')
 
-@dataclass(frozen=True)
-class ProgramArgs:
-    root: Path
-    catalog : str
-    catalog_sheet : str
-    excel : str
-    excel_sheet: str
-    verbose: bool
 
 def clear():
     os.system("cls" if os.name == "nt" else "clear")
 
-def build_parser() -> argparse.ArgumentParser:
-    p = argparse.ArgumentParser(
-        prog="excel_tool",
-        description="Read an Excel sheet and do something useful."
-    )
-
-    root = "c:\\working\\python\\PLC\\data"
-
-    # Positional or required args
-    p.add_argument("--root", default=root, type=Path, help="Path root directory")
-
-    p.add_argument("--catalog", default="INST-SearchCatalogItem.xlsx", help="Catalog items (.xlsx)")
-    p.add_argument("--catalog-sheet", default="Sheet1", help="Catalog sheet name (default: Sheet1)")
-    p.add_argument("--excel", default="PLC_SKU_Mapping-Master.xlsx", help="Excel file (.xlsx)")
-    p.add_argument("--excel-sheet", default="MasterData", help="Excel sheet name (default: Sheet1)")
-    p.add_argument("-v", "--verbose", default=False, action="store_true", help="Enable verbose logging")
-    return p
-
-
-def parse_args(argv=None) -> ProgramArgs:
-    ns = build_parser().parse_args(argv)
-
-    # Convert Namespace -> dataclass
-    return ProgramArgs(
-        root=ns.root,
-        catalog=ns.catalog,
-        catalog_sheet=ns.catalog_sheet,
-        excel=ns.excel,
-        excel_sheet=ns.excel_sheet,
-        verbose=ns.verbose
-    )
-
-@dataclass()
-class CatalogItem:
-    SYSTEM_ID: int
-    ID: str
-    NAME: str
-    TYPE: str
-    CREATED: str
-    MANUFACTURER: str
-    PRODUCT_LINE: str
-
-@dataclass()
-class MasterData:
-    PRODUCT_CODE: str
-    PRODUCT_NAME: str
-    EXTERNAL_MODULE_SKU: str
-
-@dataclass
-class Feature:
-    name: str
-    version: str
-
-@dataclass
-class Product:
-    name: str
-    version: str
-    product_line: str
-    features: list[Feature]
-
-@dataclass
-class Suite:
-    part_number: str
-    name: str
-    version: str
-    products: list[Product]
-
-    def __hash__(self) -> int:
-        return hash(self.part_number)
-
-    def __eq__(self, other) -> bool:
-        if not isinstance(other, Suite):
-            return NotImplemented
-        return self.part_number == other.part_number
-
 def main(argv=None) -> int:
     clear()
 
-    args = parse_args(argv)
+    args_root = Path("c:\\working\\python\\PLC\\data")
 
-    if args.verbose:
-        print(f"Args: {args}")
-
-    if not args.root.is_dir():
-        raise FileNotFoundError(f'cannot find {args.root}')
-
-    path = args.root / args.catalog
+    path = args_root / "INST-SearchCatalogItem.xlsx"
     catalog_items = []
-    catalog = Table().load(path).extract_sheet(args.catalog_sheet)
-    for o in catalog:
+    for o in Table().load(path).extract_sheet("Sheet1"):
         catalog_items.append(CatalogItem(
             SYSTEM_ID=o["SYSTEM_ID"],
             ID=o["ID"],
@@ -121,10 +42,9 @@ def main(argv=None) -> int:
             PRODUCT_LINE=o["PRODUCT_LINE"])
         )
 
-    path = args.root / args.excel
+    path = args_root / "PLC_SKU_Mapping-Master.xlsx"
     master_data_items = []
-    master_data = Table().load(path)
-    for o in master_data.extract_sheet(args.excel_sheet):
+    for o in  Table().load(path).extract_sheet("MasterData"):
         master_data_items.append(MasterData(
             PRODUCT_CODE=o["Product__r.ProductCode"],
             PRODUCT_NAME=o["Product__r.Name"],
@@ -132,26 +52,132 @@ def main(argv=None) -> int:
         )
 
     required_part_numbers = set()
-    for o in master_data.extract_sheet("RequiredProductCodes"):
+    for o in Table().load(path).extract_sheet("RequiredProductCodes"):
         required_part_numbers.add(o["Product__r.ProductCode"])
 
-    data = dict()
+    path = args_root / "PLC_SKU_Mapping-Master.xlsx"
+    feature_items = []
+    features = Table().load(path)
+    for o in features.extract_sheet("Catalog-Feature Mapping-Master"):
+        feature_items.append(FeatureData(
+            CATALOG_ITEM_ID=o["Catalog Item ID"],
+            FEATURE_NAME=o["Feature Name"],
+            FEATURE_DESCRIPTION=o["Feature Description"],
+            VERSION=o["Version"],
+            UNITS=o["Units In Catalog Item"])
+        )
+
+    features_per_catalog = {}
+    products = {}
+    features = {}
+
+    suites = dict()
     for o in master_data_items:
         key = o.PRODUCT_CODE
 
-        if not data.__contains__(o.PRODUCT_CODE):
-            data[key] = Suite(part_number=key, name=o.PRODUCT_NAME, version="Subscription", products=[])
+        if not suites.__contains__(o.PRODUCT_CODE):
+            suites[key] = Suite(part_number=key, name=o.PRODUCT_NAME, version=Constants.SuiteVersion, products=[])
 
-        suite = data[key]
+        suite = suites[key]
 
         for cat in filter(lambda x : x.ID == o.EXTERNAL_MODULE_SKU, catalog_items):
-            suite.products.append(Product(name=cat.NAME, version=cat.ID, product_line=cat.PRODUCT_LINE, features=[]))
 
-    with open(args.root / "pcs-products.json", "w", encoding="utf-8") as file:
-        jstr = json.dumps({k: asdict(v) for k, v in data.items() if required_part_numbers.__contains__(k)}, indent=2)
+            if not features_per_catalog.__contains__(cat.ID):
+                features_per_catalog[cat.ID] = []
 
+                for feature in filter(lambda x : x.CATALOG_ITEM_ID == cat.ID, feature_items):
+                    feat = Feature(
+                        name=feature.FEATURE_NAME,
+                        description=feature.FEATURE_DESCRIPTION,
+                        version=feature.VERSION,
+                        quantity=feature.UNITS)
+
+                    key = feat.name + " | " + str(feat.version)
+
+                    if not features.__contains__(key):
+                        features[key] = feat
+
+                    features_per_catalog[feature.CATALOG_ITEM_ID].append(feat)
+
+            prod = Product(
+                name=cat.NAME,
+                version=cat.ID,
+                product_line=cat.PRODUCT_LINE,
+                features=features_per_catalog[cat.ID])
+
+            key = prod.name + " | " + prod.version
+
+            if not products.__contains__(key):
+                products[key] = prod
+
+            suite.products.append(prod)
+
+    with open(args_root / "pcs-products.json", "w", encoding="utf-8") as file:
+        jstr = json.dumps({k: asdict(v) for k, v in products.items()}, indent=2)
         file.write(jstr)
-        print(jstr)
+
+    with open(args_root / "pcs-suites.json", "w", encoding="utf-8") as file:
+        jstr = json.dumps({k: asdict(v) for k, v in suites.items() if required_part_numbers.__contains__(k)}, indent=2)
+        file.write(jstr)
+
+    print(f"there were {len(suites.keys())} suites {len(catalog_items)} products found")
+
+    with open(args_root / "part-numbers-demo.csv", "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=PartNumberExport.get_field_names())
+        writer.writeheader()
+
+        for k, v in suites.items():
+            if required_part_numbers.__contains__(k):
+                item = PartNumberExport(
+                    sku=v.part_number,
+                    suite_name=v.name,
+                    suite_version=v.version,
+                    suite_description=v.name + " | " + Constants.SuiteLicenseModel,
+                    suite_license_model=Constants.SuiteLicenseModel)
+                writer.writerow(asdict(item))
+
+    with open(args_root / "features-demo.csv", "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=FeatureExport.get_field_names())
+        writer.writeheader()
+
+        for o in features.values():
+            item = FeatureExport(name=o.name, version=o.version, description=o.description)
+            writer.writerow(asdict(item))
+
+    with open(args_root / "products-demo.csv", "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=ProductExport.get_field_names())
+        writer.writeheader()
+
+        for o in products.values():
+            item = ProductExport()
+            item.initialize_product_line(
+                name=o.name,
+                version=o.version,
+                product_line=o.product_line)
+            writer.writerow(asdict(item))
+
+            for feat in o.features:
+                item.update_as_feature_line(feat.name, feat.version, feat.quantity)
+                writer.writerow(asdict(item))
+
+    root = ET.Element('suites', xmlns="urn:com.macrovision:flexnet/operations/exportimport")
+
+    for k, v in suites.items():
+        if required_part_numbers.__contains__(k):
+            v.generate_suite_xml(root,
+                                 deployment_state='DRAFT',
+                                 license_technology=Constants.ProductLicenseTechnology,
+                                 license_generator = Constants.ProductLicenseGenerator,
+                                 license_model = Constants.ProductLicenseModel)
+
+    tree = ET.ElementTree(root)
+
+    xml_content = Suite.replace_cdata(ET.tostring(root,
+                                                  short_empty_elements=False,
+                                                  encoding="unicode"))
+
+    with open(args_root / "output.xml", "w", encoding="utf-8") as f:
+        f.write(xml_content)
 
     return 0
 
